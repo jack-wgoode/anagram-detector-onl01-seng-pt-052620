@@ -11,7 +11,7 @@ class Anagram
   def match(list_array)
      @list_array = list_array
      
-     self.list_array.select do |scramble|
+     @list_array.select do |scramble|
       if scramble.split("").sort == self.word.split("").sort
        end
     end
