@@ -2,6 +2,8 @@ class Anagram
   
   attr_accessor :word
   
+  @list_array = []
+  
  def initialize(word) 
   @word = word
   end
