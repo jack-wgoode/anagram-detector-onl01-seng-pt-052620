@@ -10,7 +10,7 @@ class Anagram
      @list_array = %(list_array)
      
      @list_array.select do |word|
-      if word.split("").sort == @word.split("").sort
+      if word.split("").sort == self.word.split("").sort
        end
     end
   end
