@@ -12,7 +12,7 @@ class Anagram
      @list_array = list_array
      
      @list_array.select do |scramble|
-      if scramble.chars.split("").sort == self.word.chars.split("").sort
+      if scramble.split("").sort == self.word.split("").sort
        end
     end
   end
