@@ -1,4 +1,4 @@
-class AnagramDetector
+class Anagram
   
   attr_accessor :word
   
